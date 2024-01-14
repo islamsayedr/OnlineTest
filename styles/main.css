@@ -1,0 +1,88 @@
+  @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+  * {
+    direction: rtl;
+  }
+
+  body {
+    font-family: 'Cairo';
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+
+  .input {
+    margin-bottom: 15px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  input {
+    font-family: 'Cairo';
+    font-size: 14px;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  .error input{
+    border-color: #c0392b;
+  }
+
+  .success input{
+    border-color: #24af24;
+  }
+
+  input:focus {
+    border-color: #3498db;
+  }
+
+  /* input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #2980b9;
+  } */
+
+  /* styles.css */
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+
+  button[type="submit"]:hover {
+    background-color: #2980b9;
+  }
+  .errorMessage {
+    color: #c0392b; /* Red color for error messages */
+    font-size: 12px;
+    margin-top: 5px;
+  }

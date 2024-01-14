@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OnlineTest | Sign Up</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+    <script src="./scripts/auth.js" defer></script>
+  </head>
+  <body>
+    <form id="sign">
+      <h1>سجل دخول</h1>
+      <div class="input">
+        <label for="name">الاسم بالكامل</label>
+        <input
+          id="name"
+          name="name"
+          type="text"
+          placeholder="ادخل الاسم ثلاثى..."
+        />
+        <div class="errorMessage"></div>
+      </div>
+      <div class="input">
+        <label for="email">البريد الالكترونى</label>
+        <input
+          id="email"
+          name="email"
+          type="text"
+          placeholder="ادخل البريد الالكترونى..."
+        />
+        <div class="errorMessage"></div>
+      </div>
+      <div class="input">
+        <label for="password">كلمة المرور</label>
+        <input
+          id="password"
+          name="password"
+          type="password"
+          placeholder="اختر كلمة مرور..."
+        />
+        <div class="errorMessage"></div>
+      </div>
+      <button type="submit">تسجيل</button>
+    </form>
+  </body>
+</html>
