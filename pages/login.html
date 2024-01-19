@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnlineTest | Login</title>
+    <link rel="stylesheet" href="../styles/main.css" />
+</head>
+<body>
+    <form id="login">
+        <div id="home" style="cursor: pointer;">✖️</div>
+        <h1>سجل دخول</h1>
+        <div class="input">
+          <label for="email">البريد الالكترونى</label>
+          <input
+          id="email"
+          name="email"
+          type="text"
+          placeholder="ادخل البريد الالكترونى..."
+          />
+          <div class="errorMessage"></div>
+        </div>
+        <div class="input">
+          <label for="password">كلمة المرور</label>
+          <input
+          id="password"
+          name="password"
+          type="password"
+          placeholder="اختر كلمة مرور..."
+          />
+          <div class="errorMessage"></div>
+        </div>
+        <button type="submit">تسجيل</button>
+        <div id="signup" style="cursor: pointer;">انشاء حساب</div>
+      </form>
+
+    <script src="../scripts/login.js"></script>
+</body>
+</html>

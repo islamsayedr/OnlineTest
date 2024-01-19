@@ -1,1 +1,31 @@
-test for auth users only
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="../styles/test.css">
+</head>
+<body>
+
+<div class="quiz-container">
+    <div id="question-container" class="question-container">
+        <div class="timer">Time Left: <span id="timer">90</span> seconds</div>
+        <div class="question" id="question"></div>
+        <form id="options-form">
+            <div class="options" id="options"></div>
+            <button type="button" onclick="prevQuestion()">Back</button>
+            <button type="button" onclick="nextQuestion()">Next</button>
+            <button type="button" onclick="finishQuiz()">Finish</button>
+        </form>
+    </div>
+    
+    <div id="result-container">
+        <h2>Quiz Results</h2>
+        <p>Your Score: <span id="score"></span></p>
+    </div>
+</div>
+<script src="../scripts/test.js"></script>
+
+</body>
+</html>
